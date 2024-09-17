@@ -9,7 +9,7 @@ method agregarProducciones(unaLista) {
   
 }
 method algunDiaSeProdujo(cantidad) {
-  produccion.contains(cantidad)
+ return produccion.contains(cantidad)
 }
 method maximoValorDeProduccion() = produccion.max() 
   
